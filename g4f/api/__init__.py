@@ -149,7 +149,7 @@ def format_exception(e: Exception, config: ChatCompletionsConfig) -> str:
 
 def run_api(
     host: str = '0.0.0.0',
-    port: int = 443,
+    port: int = 1337,
     bind: str = None,
     debug: bool = False,
     workers: int = None,
