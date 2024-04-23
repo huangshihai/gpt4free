@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "g4f/api/run.py/$1"
+      "dest": "g4f/api/__init__.py"
     }
   ]
 }
