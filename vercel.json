@@ -1,4 +1,5 @@
 {
+  "devCommand": "uvicorn g4f.api.index:app --debug true",
   "builds": [
     {
       "src": "/g4f/api/index.py",
