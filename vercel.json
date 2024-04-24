@@ -6,9 +6,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "g4f/api/__init__.py"
-    }
+     { "handle": "server", "src": "/.*" }
   ]
 }
