@@ -162,4 +162,5 @@ def run_api(
         host, port = bind.split(":")
     if debug:
         g4f.debug.logging = True
+        g4f.debug.version_check = False
     uvicorn.run("g4f.api:create_app", host=host, port=int(port), workers=workers, use_colors=use_colors, factory=True)#
