@@ -1,14 +1,15 @@
 {
+  "devCommand": "unicorn main:app --host 0.0.0.0 --port 8000",
   "builds": [
     {
-      "src": "/g4f/api/run.py",
+      "src": "/g4f/api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "g4f/api/__init__.py"
+      "dest": "g4f/api/index.py"
     }
   ]
 }
